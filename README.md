@@ -1,16 +1,10 @@
-# Render-UI — Distributed Video Rendering System
+# Distributed Video Rendering System
 
 A distributed system that speeds up video rendering by splitting a video into
 chunks and rendering them **in parallel across multiple worker VMs**, then
 stitching the results back into a single output file. It includes crash
 recovery, worker fault tolerance, and an optional backup master for high
 availability.
-
-> **Note:** This README was generated from the project's internal
-> `how-it-works.md` design notes. The master backend module (referred to here
-> as `backend.py`) wasn't included in the files shared with me, so the exact
-> CLI flags / environment variable names below are based on the documented
-> design — double check them against the actual source before publishing.
 
 ---
 
