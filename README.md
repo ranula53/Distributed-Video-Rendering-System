@@ -226,4 +226,5 @@ transparency** — chunks aren't kept as multiple copies; resilience comes from
 - If the NFS share itself lives on one of the master VMs, that VM becomes a
   new single point of failure — for full resilience it should live on a
   separate machine.#   D i s t r i b u t e d - V i d e o - R e n d e r i n g - S y s t e m  
+ #   D i s t r i b u t e d - V i d e o - R e n d e r i n g - S y s t e m  
  
