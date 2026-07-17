@@ -111,7 +111,7 @@ jobs/<job_id>/
 - Worker VMs reachable over SSH, joined to a shared [Tailscale](https://tailscale.com) network
 - SSH key-based access from the master to each worker (no password prompts)
 
-### 1. Backend (master)
+### 1. Backend (Master)
 
 ```bash
 # from the project root, in a virtual environment
@@ -124,7 +124,7 @@ uvicorn backend:app --host 0.0.0.0 --port 8000
 The master will read the list of available workers from `tailscale status`
 at runtime, so make sure Tailscale is running and connected before starting.
 
-### 2. Frontend (dashboard)
+### 2. Frontend (Dashboard)
 
 ```bash
 cd src/.. # project root containing package.json
